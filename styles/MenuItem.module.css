@@ -1,0 +1,21 @@
+.Container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-out;
+}
+.Container a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: black;
+    padding: 0.5rem 0;
+}
+
+.Container:hover {
+    background-color: rgba(0,0,0,0.1);
+}

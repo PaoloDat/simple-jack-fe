@@ -1,0 +1,10 @@
+.Selector {
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Small {
+    width: 200px;
+}
