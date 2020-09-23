@@ -2,5 +2,19 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Item {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Label {
+    margin-right: 10px;
+    color: green;
+    font-weight: 700;
 }
