@@ -1,3 +1,7 @@
 .Container {
     width: 100%;
 }
+
+.Picker {
+    margin: 70px 0;
+}

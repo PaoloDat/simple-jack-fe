@@ -21,7 +21,8 @@ const TeamsPicker = ({
                          manAwayValue,
                          oddHomeValue,
                          oddDrawValue,
-                         oddAwayValue
+                         oddAwayValue,
+                         drawNumber
                      }) => {
 
     return (
@@ -51,6 +52,11 @@ const TeamsPicker = ({
 
             </div>
             <div className={styles.Container}>
+                <div>
+                    <Input type={selectorTypes.DRAW_NUMBER}
+                           changed={onInputChange}
+                           value={drawNumber} />
+                </div>
                 <div className={styles.Item}>
                     <label className={styles.Label}>FON</label>
                     <Input type={selectorTypes.FON_HOME}

@@ -1,0 +1,23 @@
+.Container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Selector {
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Small {
+    width: 200px;
+}
+
+
+.Medium {
+    width: 300px;
+}

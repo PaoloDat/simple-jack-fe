@@ -8,7 +8,7 @@ export default function Home({ countries, criteria }) {
         <MainLayout title="Home">
             <div>
                 <Sidebar />
-                <WorkArea countries={countries} />
+                <WorkArea countries={countries} criteria={criteria}/>
             </div>
         </MainLayout>
     )

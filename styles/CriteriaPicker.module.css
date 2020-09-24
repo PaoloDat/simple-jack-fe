@@ -1,0 +1,26 @@
+.Container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Container a {
+    margin: 0 10px;
+}
+
+.Item {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.Picker {
+    margin: 10px 0;
+}
+
+.Types {
+    width: 200px;
+}
