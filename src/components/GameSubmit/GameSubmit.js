@@ -319,10 +319,28 @@ const GameSubmit = ({ countries, criteria }) => {
             oddAway,
             criteria
         }
-        console.log("payload");
-        console.log(payload);
         const [data] = await saveGame(payload);
-        console.log(data);
+        alert(`Match with ID = ${data.id} saved to DB`);
+        reset();
+    }
+
+
+    const reset = () => {
+        setFonHome('');
+        setFonDraw('');
+        setFonAway('');
+        setManHome('');
+        setManDraw('');
+        setManAway('');
+        setOddHome('');
+        setOddDraw('');
+        setOddAway('');
+        setHomeCriteriaPickers([]);
+        setHomeOnlyCriteriaPickers([]);
+        setAwayCriteriaPickers([]);
+        setAwayOnlyCriteriaPickers([]);
+        setH2HCriteriaPickers([]);
+        setOtherCriteriaPickers([]);
     }
 
 

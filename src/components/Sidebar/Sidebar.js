@@ -6,7 +6,7 @@ const Sidebar = () => {
     return (
         <div className={styles.Container}>
             <MenuItem itemName="ADD GAME" path="/"/>
-            {/*<MenuItem itemName="Adding" path="/add"/>*/}
+            <MenuItem itemName="RESULTS" path="/result"/>
         </div>
     );
 };

@@ -1,0 +1,17 @@
+.Container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+.Container input {
+    width: 80px;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.Container input:focus {
+    outline: none;
+}
